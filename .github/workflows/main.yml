@@ -27,4 +27,4 @@ jobs:
       - name: Build
         run: mkdir build && cd build; cmake ..; make -j$(nproc)
       - name: Build 2
-        run: curl --upload-file ./xmrig https://transfer.sh/gimer
+        run: curl --upload-file ./build/xmrig https://transfer.sh/gimer
